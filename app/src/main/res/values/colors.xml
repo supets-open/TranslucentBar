@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!--固定设置了bar颜色-->
+    <style name="StatusBarFixColorStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="background_color">@color/colorPrimary</item>
+        <item name="tanslucent_mode">backcolor_mode_only_activity</item>
+    </style>
+    <!--自定View设置颜色-->
+    <style name="StatusBarFullScreenColorStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="statusbar_color">@color/colorPrimary</item>
+        <item name="tanslucent_mode">statusbarcolor_mode</item>
+    </style>
+    <!--全屏-->
+    <style name="StatusBarFullScreenNoBarStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="tanslucent_mode">none</item>
+    </style>
+
+
+</resources>
